@@ -13,3 +13,27 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+# Файлы, сгенерированные Android Studio
+.idea/
+
+# Сборка и бинарные файлы
+/build/
+/app/build/
+
+# Файлы Gradle
+.gradle/
+.gradle.kts/
+
+# Файлы логов и отчеты о сборке
+*.log
+build/
+captures/
+output.json
+
+# Пользовательские файлы конфигурации
+local.properties
+
+# Файлы, содержащие конфиденциальные данные (например, ключи API)
+app/src/main/res/values/secrets.xml
